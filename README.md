@@ -16,18 +16,20 @@ Steps:
   7. Role Name: lambda_s3_full_access  (Create Role)
  
  ## 3 - Create a Lambda 
-   Functions ->
-   Button: Create a Function ->
-   Pick: Author from scratch, define the name like: myLambdaFunction, click: Create Function ->
-   Copy the index.js from this repository to the index.js in the AWS.
-   Change the name of the bucket to your bucket name.
-   Click in Configuration -> Permissions -> Edit Execution role
-   In the Existing role, change to the role created in the step 2 and then save
+ Steps:  
+   1. Functions ->
+   2. Button: Create a Function ->
+   3. Pick: Author from scratch, define the name like: myLambdaFunction, click: Create Function ->
+   4. Copy the index.js from this repository to the index.js in the AWS.
+   5. Change the name of the bucket to your bucket name.
+   6. Click in Configuration -> Permissions -> Edit Execution role
+   7. In the Existing role, change to the role created in the step 2 and then save
    
  ## 4 - Create a API GateWay
-   In your lambda function, click "Add Trigger" ->
-   Select API Gateway ->
-      API Type: HTTP API
+ In your lambda function:
+   1. click Add Trigger" ->
+   2. Select API Gateway ->
+   3. API Type: HTTP API
       Security: Open
       Click ADD
    
