@@ -34,17 +34,16 @@ Steps:
       Click ADD
    
  ## 5 - Click in the API Endpoint
- Something like: 
-        https://8b76nzk70h.execute-api.sa-east-1.amazonaws.com/default/myLambdaFunction
+ Something like:\ 
+      https://8b76nzk70h.execute-api.sa-east-1.amazonaws.com/default/myLambdaFunction
     
-  This message will be show: 
-        "Type a query: ?value=XXXXXXXXX"
+ This message will be show:\ 
+      "Type a query: ?value=XXXXXXXXX"
     
-  Now, type a query like this:
+  Now, type a query like this:\
+      https://8b76nzk70h.execute-api.sa-east-1.amazonaws.com/default/myLambdaFunction?value=GlaucoTodesco
     
-  https://8b76nzk70h.execute-api.sa-east-1.amazonaws.com/default/myLambdaFunction?value=GlaucoTodesco
-    
-  The ETag of the S3 Bucket object will be show:
+  The ETag of the S3 Bucket object will be show:\
       {
         "ETag": "\"acbb4e7a29c4435b0e5549efa266db26\""
       }
