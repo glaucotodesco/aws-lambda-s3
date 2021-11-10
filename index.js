@@ -37,11 +37,11 @@ exports.handler = async (event) => {
             data = JSON.stringify(newData);
          }
          else{
-             data = JSON.stringify('Nome da query inválida! Passe uma query: ?value=XXXXXXXXX');
+             data = JSON.stringify('Wrong name of the parameter. Type a query: ?value=XXXXXXXXX');
          }
     }
     else{
-        data = JSON.stringify('Passe uma query: ?value=XXXXXXXXX');
+        data = JSON.stringify('Type a query: ?value=XXXXXXXXX');
     }
     
     const response = {
