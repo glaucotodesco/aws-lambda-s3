@@ -42,14 +42,14 @@ Steps:
     
   Now, type a query like this:
     
-  https://8b76nzk70h.execute-api.sa-east-1.amazonaws.com/default/myLambdaFunction?value=Glauco Todesco
+  https://8b76nzk70h.execute-api.sa-east-1.amazonaws.com/default/myLambdaFunction?value=GlaucoTodesco
     
   The ETag of the S3 Bucket object will be show:
       {
         "ETag": "\"acbb4e7a29c4435b0e5549efa266db26\""
       }
       
-  Now look at your S3 Bucket, the file.txt was created. The content of this file is the value, in this case: Glauco Todesco
+  Now look at your S3 Bucket, the file.txt was created. The content of this file is the value, in this case: GlaucoTodesco
     
     
     
