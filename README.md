@@ -1,5 +1,3 @@
-# aws-lambda-s3
-
 # How to test?
 
 ## 1 - Create your AWS S3 Bucket
