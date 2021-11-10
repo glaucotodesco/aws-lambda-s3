@@ -2,18 +2,18 @@
 
 ## 1 - Create your AWS S3 Bucket
 Steps:
-   Define only the name of the bucket
-   Copy the name of the created bucket
+   1. Define only the name of the bucket
+   2. Copy the name of the created bucket
 
 ## 2 - Create a new IAM Role
 Steps:
-  Roles ->
-  Create role ->
-  Lambda (Next) -> 
-  Choose: AmazonS3FullAccess :-) just for test ->
-  Next -> 
-  Next -> 
-  Role Name: lambda_s3_full_access  (Create Role)
+  1. Roles ->
+  2. Create role ->
+  3. Lambda (Next) -> 
+  4. Choose: AmazonS3FullAccess :-) just for test ->
+  5. Next -> 
+  6. Next -> 
+  7. Role Name: lambda_s3_full_access  (Create Role)
  
  ## 3 - Create a Lambda 
    Functions ->
